@@ -11,6 +11,11 @@ public class Series extends Title {
         super(name, year);
     }
 
+    @Override
+    public String toString() {
+        return "Serie: " + getName()+ " - " + getReleaseYear();
+    }
+
     public int getSeasons() {
         return seasons;
     }
