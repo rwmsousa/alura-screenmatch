@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch;
+package br.com.alura.screenmatch.principal;
 import br.com.alura.screenmatch.calc.CalcTime;
 import br.com.alura.screenmatch.calc.RecomendationFilter;
 import br.com.alura.screenmatch.models.Episode;
