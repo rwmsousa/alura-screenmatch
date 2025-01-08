@@ -5,6 +5,7 @@ import br.com.alura.screenmatch.models.Series;
 import br.com.alura.screenmatch.models.Title;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 public class MainWithLists {
 
@@ -40,6 +41,8 @@ public class MainWithLists {
         System.out.println(artistas);
 
         Collections.sort(whatchedList);
+        System.out.println(whatchedList);
+        whatchedList.sort(Comparator.comparing(Title::getReleaseYear)); // Personaliza a ordenação
         System.out.println(whatchedList);
     }
 
