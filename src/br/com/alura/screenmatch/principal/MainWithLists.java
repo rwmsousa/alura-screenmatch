@@ -4,6 +4,7 @@ import br.com.alura.screenmatch.models.Film;
 import br.com.alura.screenmatch.models.Series;
 import br.com.alura.screenmatch.models.Title;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class MainWithLists {
 
@@ -29,6 +30,17 @@ public class MainWithLists {
             System.out.println("Classification: " + filmItem.getClassification());
           }
         }
+
+        ArrayList<String> artistas = new ArrayList<>();
+        artistas.add("Sylvester Stallone");
+        artistas.add("James Cameron");
+        artistas.add("Francis Ford Coppola");
+
+        Collections.sort(artistas);
+        System.out.println(artistas);
+
+        Collections.sort(whatchedList);
+        System.out.println(whatchedList);
     }
 
 }
