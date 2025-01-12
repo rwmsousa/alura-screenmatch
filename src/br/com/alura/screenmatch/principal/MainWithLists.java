@@ -6,6 +6,7 @@ import br.com.alura.screenmatch.models.Title;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.List;
 
 public class MainWithLists {
 
@@ -32,7 +33,7 @@ public class MainWithLists {
           }
         }
 
-        ArrayList<String> artistas = new ArrayList<>();
+        List<String> artistas = new ArrayList<>();
         artistas.add("Sylvester Stallone");
         artistas.add("James Cameron");
         artistas.add("Francis Ford Coppola");
